@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7ec36f21b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="float">
+      <form>
+        <input
+          type="text"
+          placeholder="Search for a city"
+          class="search-box"
+          id="city-input"
+        />
+        <input
+          type="submit"
+          value="GO"
+          class="search-button"
+          id="search-input"
+        />
+      </form>
+      <div class="city-info">
+        <h2 class="current-city">Malaga</h2>
+        <div class="date-time">Tuesday 10:00</div>
+        <img src="" alt="Clear" id="icon" />
+        <br />
+        <div class="current-weather">
+          <span class="current-temperature"> 14</span
+          ><span class="units-convert"
+            >°C | <a href="#" id="fahrenheit-link">F</a></span
+          ><br />
+          <span id="weather-description">Clear</span>
+        </div>
+      </div>
+      <div class="weather-conditions">
+        <ul>
+          <li id="wind">Wind</li>
+          <li id="humidity">Humidity</li>
+          <li id="air-quality">Air quality</li>
+        </ul>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

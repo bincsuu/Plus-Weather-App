@@ -1,0 +1,84 @@
+.float {
+  display: block;
+  background: #d2eaf4;
+  padding: 80px;
+  max-width: 70%;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search-box {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 70%;
+  border-radius: 15px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+.search-button {
+  border-radius: 20px;
+  padding: 5px 60px;
+  border-width: 1px;
+}
+
+.city-info {
+  background: turquoise;
+  padding-left: 4%;
+  max-width: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+}
+
+.current-city {
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  padding: 2% 4%;
+  background: violet;
+  margin: 0 auto;
+}
+
+.date-time {
+  background: green;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-right: 30%;
+}
+
+.current-weather {
+  display: inline-block;
+  padding: 2% 4%;
+  vertical-align: middle;
+  background: hotpink;
+  margin: 0;
+}
+
+#sun {
+  font-size: 58px;
+  color: orange;
+  text-align: right;
+  background: salmon;
+  margin-left: 50%;
+}
+
+.weather-conditions {
+  background: purple;
+  max-width: 25%;
+  border-radius: 20px;
+  line-height: 10mm;
+  margin-right: 15%;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 5%;
+  padding-left: 5%;
+  list-style: none;
+}
