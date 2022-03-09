@@ -52,7 +52,7 @@ function citySearch(city) {
 function searchBar(event) {
   event.preventDefault();
   let cityInput = document.querySelector("#city-input");
-  searchBar(cityInput.value);
+  citySearch(cityInput.value);
 }
 
 searchBar("New York");
