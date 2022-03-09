@@ -42,12 +42,10 @@ function displayTemperature(response) {
   );
   icon.setAttribute("alt", response.data.weather[0].description);
 }
-
-function citySearch(city) {
-  let apiKey = "fdd9ef011491bdd0ac653f81ffb9ed48";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units-metric`;
-  axios.get(apiUrl).then(displayTemperature);
-}
+let city = "Malaga";
+let apiKey = "fdd9ef011491bdd0ac653f81ffb9ed48";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units-metric`;
+axios.get(apiUrl).then(displayTemperature);
 
 function searchBar(event) {
   event.preventDefault();
