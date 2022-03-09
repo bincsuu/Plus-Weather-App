@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="float">
-      <form>
+      <form id="search">
         <input
           type="text"
           placeholder="Search for a city"
@@ -35,12 +35,12 @@
         />
       </form>
       <div class="city-info">
-        <h2 class="current-city">Malaga</h2>
+        <h2 class="current-city" id="city"></h2>
         <div class="date-time">Tuesday 10:00</div>
         <img src="" alt="Clear" id="icon" />
         <br />
         <div class="current-weather">
-          <span class="current-temperature"> 14</span
+          <span class="current-temperature" id="temperature"></span
           ><span class="units-convert"
             >°C | <a href="#" id="fahrenheit-link">F</a></span
           ><br />
@@ -49,9 +49,9 @@
       </div>
       <div class="weather-conditions">
         <ul>
-          <li id="wind">Wind</li>
-          <li id="humidity">Humidity</li>
-          <li id="air-quality">Air quality</li>
+          <li>Wind: <span id="wind"></span></li>
+          <li>Humidity: <span id="humidity"></span></li>
+          <li>Air quality: <span id="air-quality"></span></li>
         </ul>
       </div>
     </div>
