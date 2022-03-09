@@ -55,7 +55,5 @@ function searchBar(event) {
   citySearch(cityInput.value);
 }
 
-searchBar("New York");
-
 let form = document.querySelector("#search-input");
 form.addEventListener("submit", searchBar);
