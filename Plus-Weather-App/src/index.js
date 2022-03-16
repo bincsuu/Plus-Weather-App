@@ -45,7 +45,8 @@ function displayTemperature(response) {
 
 function citySearch(city) {
   let apiKey = "fdd9ef011491bdd0ac653f81ffb9ed48";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units-metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  console.log(apiUrl);
   axios.get(apiUrl).then(displayTemperature);
 }
 
@@ -55,5 +56,7 @@ function searchBar(event) {
   citySearch(cityInput.value);
 }
 
-let form = document.querySelector("#search-input");
+citySearch("Malaga");
+
+let form = document.querySelector("#search");
 form.addEventListener("submit", searchBar);
