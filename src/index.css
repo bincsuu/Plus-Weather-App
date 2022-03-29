@@ -63,11 +63,15 @@
   font-size: 18px;
 }
 
+.current-temperature {
+  font-size: 36px;
+}
+
 .current-weather {
   font-size: 22px;
   font-weight: 500;
   display: inline-block;
-  padding: 2% 4%;
+  padding: 6% 4%;
   vertical-align: middle;
   margin-left: 15px;
   margin-bottom: 15px;
@@ -106,6 +110,16 @@
   padding-top: 0;
   margin-bottom: 40px;
   text-align: left;
+}
+
+.current-weather .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.current-weather .active:hover {
+  text-decoration: none;
 }
 
 ul {
