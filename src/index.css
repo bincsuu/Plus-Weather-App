@@ -2,17 +2,23 @@
   display: block;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   padding: 80px;
-  max-width: 70%;
+  max-width: 80%;
   margin-top: 5%;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
   border-radius: 25px;
   font-family: "Montserrat", sans-serif;
+}
+
+#search {
+  margin-top: -4%;
+  margin-bottom: -4%;
 }
 
 .search-box {
   margin-bottom: 40px;
   margin-right: 20px;
+  margin-top: -30%;
   width: 70%;
   border-radius: 15px;
   border: none;
@@ -31,26 +37,28 @@
   background: #defcf9;
   padding-left: 4%;
   max-width: 80%;
-  padding-top: 15%;
+  padding-top: 12%;
   padding-bottom: 15%;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: -50%;
 }
 
 .current-city {
   font-weight: bold;
-  font-size: 42px;
+  font-size: 38px;
   padding: 8% 10%;
   margin-bottom: 5px;
 }
 
 .icon-temp {
   background: #c3bef0;
-  max-width: 80%;
   border-radius: 20px;
   line-height: 10mm;
   margin-top: 30px;
-  margin-bottom: -150px;
+  margin-bottom: 40px;
+  padding-bottom: -100px;
+  margin-left: -10%;
 }
 
 .date-time {
@@ -64,7 +72,7 @@
 }
 
 .current-temperature {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .current-weather {
@@ -73,24 +81,25 @@
   display: inline-block;
   padding: 6% 4%;
   vertical-align: middle;
-  margin-left: 15px;
   margin-bottom: 15px;
 }
 
 .weather-conditions {
-  background: #e0ffcd;
-  max-width: 45%;
-  border-radius: 20px;
-  line-height: 10mm;
-  margin-right: 15%;
-  margin-top: -100px;
-  margin-left: 53%;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 0;
+  margin-left: -15%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 #weather-description {
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+.w-icon {
+  margin-top: -40%;
 }
 
 .search-button {
@@ -125,16 +134,19 @@
 
 ul {
   list-style: none;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-top: 15%;
+  padding-left: 0;
+  margin-left: -6%;
 }
 
 .weather-forecast {
-  background: #fff4e1;
+  background: #ffebbb;
   border-radius: 20px;
   margin-top: 3%;
   padding: 4% 6%;
   text-align: center;
+  margin-bottom: -5%;
+  margin-top: -10px;
 }
 
 .day {
@@ -151,4 +163,9 @@ ul {
 .forecast-temp-min {
   color: gray;
   padding-left: 10%;
+}
+
+.row {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }

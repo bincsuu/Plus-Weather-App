@@ -50,7 +50,7 @@
           </div>
           <div class="col-6">
             <div class="icon-temp">
-              <img src="" alt="Clear" id="icon" />
+              <img src="" alt="Clear" class="w-icon" id="icon" />
               <div class="current-weather">
                 <span class="current-temperature" id="temperature"></span
                 ><span class="units-convert"
@@ -58,17 +58,15 @@
                   <a href="#" id="fahrenheit-link">F</a></span
                 ><br />
                 <span id="weather-description">Clear</span>
+                <div class="weather-conditions">
+                  <ul>
+                    <li>Wind: <span id="wind"></span> m/s</li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <!-- <li>Air quality: <span id="air-quality"></span></li> -->
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="weather-conditions">
-            <ul>
-              <li>Wind: <span id="wind"></span></li>
-              <li>Humidity: <span id="humidity"></span></li>
-              <!-- <li>Air quality: <span id="air-quality"></span></li> -->
-            </ul>
           </div>
         </div>
         <div class="weather-forecast" id="forecast">

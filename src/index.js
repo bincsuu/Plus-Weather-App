@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 let now = new Date();
 
 let time = document.querySelector(".date-time");
@@ -33,7 +31,7 @@ function formatDay(timestamp) {
   return weekdays[days];
 }
 
-function displayForecast() {
+function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
 
